@@ -80,7 +80,7 @@ class LoginPage extends StatelessWidget {
             Container(
               padding: EdgeInsets.all(8.0),
               child: ElevatedButton(
-                onPressed: ()=>Navigator.of(context).push(MaterialPageRoute(builder: (context)=>MyHomePage()))
+                onPressed: ()=>Navigator.of(context).push(MaterialPageRoute(builder: (context)=>HomePage()))
                 ,
                 child: Text("Login "),
               ),
